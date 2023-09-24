@@ -13,7 +13,7 @@ function findMaxConsecutiveOnes(nums) {
     if (nums[i] === 1) {
       currentCount++;
       maxCount = Math.max(maxCount, currentCount);
-    //   console.log(maxCount,"maxCount",currentCount ,"currentCoun")
+      console.log(maxCount,"maxCount",currentCount ,"currentCoun")
     } else {
       currentCount = 0;
     //   console.log(currentCount)
