@@ -26,7 +26,8 @@ function reverseString(str) {
     return reversedStr;
 }
 
-const originalString = 'Hello, World!';
+// const originalString = 'Hello, World!';
+const originalString = [1,2,3,4];
 
 const reversedString = reverseString(originalString);
 console.log(reversedString);
